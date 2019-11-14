@@ -5,6 +5,7 @@ const DIGITS = "0123456789";
 var first = '';
 var second = '';
 var operation = '';
+var opa;
 
 function init() {
   document.querySelectorAll(".content a").forEach(
