@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.content a {
+  width: 100px;
+  height: 100px;
+  border: 1px solid darkgrey;
+  background: lightgreen;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 34px;
+  text-decoration: none;
+}
+
+#display {
+  flex: 1 0 100%;
+  margin: 0;
+  padding: 20px;
+  background: lightblue;
+  text-align: right;
+  border: 1px solid darkgrey;
+}
